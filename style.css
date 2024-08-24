@@ -26,6 +26,8 @@ body {
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
   
   position: absolute;
+  cursor: grab;
+  transition: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .paper.heart {
@@ -83,6 +85,8 @@ p {
       padding: 10px;
       transform: rotateZ(0deg);
   }
+
+ 
 
   .paper.heart {
       width: 120px;
